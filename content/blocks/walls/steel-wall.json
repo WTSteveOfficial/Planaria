@@ -1,0 +1,23 @@
+{
+  "type": "Wall",
+  "name": "Steel Wall",
+  "description": "Protects structures from enemy projectiles",
+  "category": "defense",
+  "health": 510,
+  "research": {
+   "parent": "main-branch",
+   "requirements": [
+      {
+        "item": "steel",
+        "amount": 10
+      }
+    ]
+  },
+  "requirements": [
+    {
+      "item": "steel",
+      "amount": 6
+    }
+  ],
+  "size": 1
+}

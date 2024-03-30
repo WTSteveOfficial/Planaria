@@ -1,0 +1,8 @@
+{
+  "type": "OreBlock",
+  "name": "Steel Ore",
+  "itemDrop": "steel",
+  "hasColor": true,
+  "mapColor": "989AA4",
+  "variants": 5
+}

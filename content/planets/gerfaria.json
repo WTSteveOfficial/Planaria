@@ -1,0 +1,92 @@
+{
+ "localizedName": "Gerfaria",
+  "description": "A planet with thriving life. Analysis shows it has water and an atmosphere but has a very high enemy presence",
+  "alwaysUnlocked": true,
+  "accessible": true,
+  "iconColor": "29302b",
+  "icon": "planet",
+  "defaultCore": "core-shard",
+
+  "mesh": {
+    "type": "NoiseMesh",
+    "planet": "gerfaria",
+    "seed": -1674197430,
+    "divisions": 8,
+    "color1": "4287f5",
+    "color2": "1eb50d",
+    "radius": 0.9,
+    "octaves": 3,
+    "persistence": 0.8,
+    "scale": 0.87,
+    "mag": 1.2
+  },
+
+  "cloudMesh": {
+    "type": "NoiseMesh",
+    "planet": "gerfaria",
+    "seed": 51320111410,
+    "speed": 0.4,
+    "radius": 0.05,
+    "divisions": 6,
+    "color": "eafffd7e",
+    "octaves": 3,
+    "persistence": 0.7,
+    "scl": 1,
+    "thresh": 0.4
+  },
+
+  "generator": {
+    "type": "PlanetGenerator",
+    "octaves": 2,
+    "persistence": 0.4,
+    "scale": 30,
+    "mag": 0.56,
+    "thresh": 1.233,
+    "radMin": 560,
+    "radMax": 600,
+    "min": 100,
+    "max": 100,
+    "iceChance": 0.43,
+    "carbonChance": 0.76,
+    "berylChance": 0,
+    "ferricChance": 0.32
+  },
+
+  "allowLaunchSchematics": true,
+  "allowLaunchLoadout": true,
+  "clearSectorOnLose": true,
+
+  "sectorSize": 1,
+  "radius": 1,
+  "minZoom": 0.5,
+  "drawOrbit": true,
+  "sectorSeed": 5132011,
+  "orbitSpacing": 12,
+  "bloom": false,
+  "visible": true,
+
+  "updateLighting": false,
+  "atmosphereColor": "0099dd",
+  "hasAtmosphere": true,
+  "atmosphereRadIn": 0,
+  "atmosphereRadOut": 0.3,
+  "parent": "sun",
+  "solarSystem": "sun",
+
+  "allowWaveSimulation": true,
+  "allowWaves": true,
+
+  "launchCandidates": [],
+  "itemWhitelist": [
+    "copper",
+    "lead",
+    "graphite",
+    "titanium",
+    "silicon",
+    "sand",
+    "coal",
+    "scrap",
+    "pyratite",
+    "steel"
+  ]
+}

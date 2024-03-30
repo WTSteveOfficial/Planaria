@@ -1,0 +1,37 @@
+{
+  "type": "GenericCrafter",
+  "category": "crafting",
+  "name": "Polymer Synthase",
+  "description": "Converts scrap into polymer",
+  "health": 310,
+  "size": 2,
+  "hasPower": true,
+  "hasItems": true,
+  "craftTime": 30,
+  "craftEffect": "smeltsmoke",
+  "consumes": {
+    "power": 1,
+    "items": {
+      "items": [
+        "scrap/2"
+      ]
+    }
+  },
+  "outputItem": {
+    "item": "polymer",
+    "amount": 2
+  },
+  "requirements": [
+    {"item": "copper", "amount": 46},
+    {"item": "steel", "amount": 38},
+    {"item": "titanium", "amount": 12}
+  ],
+  "research": {
+    "parent": "main-branch",
+    "requirements": [
+       {"item": "copper", "amount": 920},
+       {"item": "steel", "amount": 760},
+       {"item": "titanium", "amount": 240}
+    ]
+  }
+}

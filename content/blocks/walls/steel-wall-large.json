@@ -1,0 +1,23 @@
+{
+  "type": "Wall",
+  "name": "Large Steel Wall",
+  "description": "Protects structures from enemy projectiles",
+  "category": "defense",
+  "health": 2040,
+  "research": {
+   "parent": "steel-wall",
+   "requirements": [
+      {
+        "item": "steel",
+        "amount": 40
+      }
+    ]
+  },
+  "requirements": [
+    {
+      "item": "steel",
+      "amount": 24
+    }
+  ],
+  "size": 2
+}

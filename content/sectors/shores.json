@@ -1,0 +1,11 @@
+{
+  "localizedName": "Starting Shores",
+  "description": "The starting location to reclaim this planet back once more. Analysis shows medium enemy threat and plentiful of resources.",
+  "difficulty": 0,
+  "planet": "gerfaria",
+  "sector": 0,
+  "allowLaunchLoadout": true,
+  "addStartingItems": true,
+  "noLighting": false,
+  "research": "main-branch"
+}

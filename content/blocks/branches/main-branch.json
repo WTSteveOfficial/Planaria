@@ -1,0 +1,15 @@
+{
+    "type": "Wall",
+    "name": "Oh No",
+    "description": "The main branch to all the content added by this mod",
+    "details": "Oh No texture happens when a content (blocks, item, unit, or etc) has no sprite or its messed up.",
+    "health": 0,
+    "buildVisibility": "hidden",
+    "alwaysUnlocked": true,
+    "research": {
+     "root": true,
+     "name": "Planaria",
+     "requiresUnlock": false
+    },
+    "size": 1
+}

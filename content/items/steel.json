@@ -1,0 +1,10 @@
+{
+  "type": "Item",
+  "name": "Steel",
+  "description": "Used in making durable structures and units",
+  "details": "Not found as ore deposits in other planets. Seems to be leftovers of once structures here",
+  "color": "989AA4",
+  "hardness": 3,
+  "cost": 7,
+  "research": "main-branch"
+}
