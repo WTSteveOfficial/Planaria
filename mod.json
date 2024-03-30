@@ -1,0 +1,11 @@
+{
+    "name": "planaria",
+    "displayName": "Planaria (WIP)",
+    "author": "WTSteveOfficial",
+    "description": "A mindustry mod which adds a planet. Currently WIP",
+    "version": "a_1.0.0",
+    "subtitle": "Alpha v_1.0",
+    "minGameVersion": 146,
+    "dependencies": [],
+    "hidden": false
+}
