@@ -11,8 +11,11 @@
   "craftEffect": "smeltsmoke",
   "consumes": {
     "power": 1,
-    "items": "scrap/2"
-  },
+    "items": {
+      "items": [
+        "scrap/2"
+      ]
+    },
   "outputItem": {
     "item": "polymer",
     "amount": 2
