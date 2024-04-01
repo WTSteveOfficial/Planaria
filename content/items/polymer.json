@@ -2,9 +2,9 @@
   "type": "Item",
   "name": "Polymer",
   "description": "Used in making materials",
-  "details": "A type of polymer that's used to make almost every resources but as strong as phase fabric",
+  "details": "A type of polymer that's used to make almost every resources but as strong as titanium",
   "color": "919FE7",
-  "hardness": 10,
+  "hardness": 5,
   "cost": 2,
   "research": "steel"
 }
