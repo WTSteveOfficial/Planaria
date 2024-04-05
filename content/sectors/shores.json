@@ -8,10 +8,7 @@
   "addStartingItems": true,
   "noLighting": false,
   "research": {
-    "parent": "main-branch",
-    "requirements": [
-      "groundZero",
-      "pneumaticDrill"
+    "parent": "main-branch"
     ]
   }
 }
